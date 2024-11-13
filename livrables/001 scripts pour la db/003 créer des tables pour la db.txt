@@ -1,5 +1,3 @@
-USE db_space_invaders;
-
 CREATE TABLE JOUEUR(
    joueur_id INT,
    pseudonyme VARCHAR(50),
@@ -10,12 +8,12 @@ CREATE TABLE JOUEUR(
 
 CREATE TABLE ARME(
    arme_id INT,
-   nom VARCHAR(15),
+   nom VARCHAR(50),
    description VARCHAR(50),
    prix DECIMAL(15,2),
-   ´force´ SMALLINT,
+   arme_force SMALLINT,
    coupsutilisables INT,
-   type VARCHAR(15),
+   type VARCHAR(50),
    PRIMARY KEY(arme_id)
 );
 
@@ -44,4 +42,3 @@ CREATE TABLE concerne(
    FOREIGN KEY(arme_id) REFERENCES ARME(arme_id),
    FOREIGN KEY(commande_id) REFERENCES COMMANDE(commande_id)
 );
-
