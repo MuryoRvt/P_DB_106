@@ -1,0 +1,3 @@
+CREATE ROLE Administrateur;
+CREATE ROLE Gestionnaire;
+CREATE ROLE Joueur;
