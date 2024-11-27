@@ -1,1 +1,0 @@
- j'ai mis les 'é' dans mes tables donc on peut pas éxecuter depuis CMD, mais ça marche depuis PHP
