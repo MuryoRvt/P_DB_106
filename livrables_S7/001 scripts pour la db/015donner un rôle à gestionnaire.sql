@@ -1,0 +1,1 @@
+GRANT gestionnaire TO 'Gestionnaire';

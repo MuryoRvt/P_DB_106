@@ -1,0 +1,1 @@
+CREATE USER 'Administrateur' IDENTIFIED BY 'admin_pass';

@@ -1,0 +1,1 @@
+CREATE USER 'Gestionnaire' IDENTIFIED BY 'gest_pass';

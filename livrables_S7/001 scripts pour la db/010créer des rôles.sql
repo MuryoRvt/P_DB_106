@@ -1,0 +1,1 @@
+CREATE ROLE 'admin'@'localhost', 'gestionnaire'@'localhost', 'joueur'@'localhost';

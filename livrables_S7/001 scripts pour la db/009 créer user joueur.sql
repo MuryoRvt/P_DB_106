@@ -1,0 +1,1 @@
+CREATE USER 'Joueur' IDENTIFIED BY 'joueur_pass';
